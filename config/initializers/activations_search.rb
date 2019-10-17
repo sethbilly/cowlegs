@@ -1,0 +1,1 @@
+require 'activations_search'

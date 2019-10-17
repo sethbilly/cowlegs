@@ -1,0 +1,1 @@
+require 'vaccine_deliveries_revenue_search'

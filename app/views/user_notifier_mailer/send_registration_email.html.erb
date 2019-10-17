@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hello <%= @user.first_name %>, a Shepherd App account has been created for you!</h1>
+    <p>You can login to the app using the following details</p>
+
+    <div style="margin-top: 10px; margin-bottom: 5px;">
+      <p>Email: <%= @user.email %></p>
+      <p>Password: <%= message['password'].to_s %></p>
+    </div>
+
+    <p><%= link_to 'Change my password', edit_user_password_url(@user, reset_password_token: @token, config: message['client-config'].to_s, redirect_url: message['redirect-url'].to_s).html_safe %></p>
+  </body>
+</html>

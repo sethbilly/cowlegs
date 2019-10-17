@@ -1,0 +1,6 @@
+REPORTED_CASES_FROM_THIS_WEEK = 'cases_from_this_week'
+REPORTED_CASES_FROM_LAST_WEEK = 'cases_from_last_week'
+REPORTED_CASES_FROM_THIS_MONTH = 'cases_from_this_month'
+REPORTED_CASES_FROM_LAST_MONTH = 'cases_from_last_month'
+REPORTED_CASES_FOR_LAST_SIX_MONTHS = 'cases_for_last_six_months'
+FIREBASE_FCM_SEND_URL = 'https://fcm.googleapis.com/fcm/send'
